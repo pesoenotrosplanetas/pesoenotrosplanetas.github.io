@@ -1,0 +1,28 @@
+body{background:#000000;
+     color:#fff;
+     font-family:Arial;
+}
+h1{font-size:50px;
+    font-family:Arial;
+}
+/*pendiente para el texto que imprime el codigo*/
+h2{font-size:30px;}
+.definicion{font-size:30px;}
+.valor{font-size:20px;
+       color:yellow;
+      }
+.autor{font-size:15px;
+       color:green;
+      }
+
+      
+      
+      h3{color:red;}         
+aside a {color:#900C3F;}
+
+aside {
+      background:#DAF7A6;
+      width:25%;
+      margin:10px 10px;
+      border:5px solid #238270;
+}
