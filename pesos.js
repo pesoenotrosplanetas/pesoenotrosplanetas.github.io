@@ -19,59 +19,67 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
                 if (planeta == 1)                          //condiciones
                 {
 					peso_final = peso * g_Mercurio /g_Tierra;
-					document.write (" Tu peso en <strong>Mercurio</strong> es de:<strong> " + peso_final + "Kg</strong>");
-					peso_final = (peso_final.toFixed(2));
+		                        peso_final = Number(peso_final.toFixed(2));	
+					document.write (" Tu peso en <strong>Mercurio</strong> sería de:<strong> " + peso_final + "Kg</strong>");
+					
 				}
 				
 				else if (planeta == 2)
                 {
                     peso_final = peso * g_Venus / g_Tierra;
-                    document.write (" tu peso en <strong>Venus</strong> es de:<strong> " + peso_final + " Kg</strong>");
-                    peso_final = (peso_final.toFixed(2));
+		    peso_final = Number(peso_final.toFixed(2));
+                    document.write (" tu peso en <strong>Venus</strong> sería de:<strong> " + peso_final + " Kg</strong>");
+                    
 			    }
 				
 				else if (planeta == 3)
                 {
                     peso_final = peso * g_Luna / g_Tierra;
-                    document.write (" tu peso en la <strong>Luna</strong> es de:<strong> " + peso_final + " Kg</strong>");
-                    peso_final = (peso_final.toFixed(2));
+                    peso_final = Numeber(peso_final.toFixed(2));
+		    document.write (" tu peso en la <strong>Luna</strong> sería de:<strong> " + peso_final + " Kg</strong>");
+                    
 			    }
 			    
 			    
                 else if (planeta == 4)
                 {
                     peso_final = peso * g_Marte / g_Tierra;
-                    document.write (" tu peso en <strong>Marte</strong> es de:<strong> " + peso_final + " Kg</strong>");
-                    peso_final = (peso_final.toFixed(2));
+		    peso_final = Numeber(peso_final.toFixed(2));
+                    document.write (" tu peso en <strong>Marte</strong> sería de:<strong> " + peso_final + " Kg</strong>");
+                    
 			    }
 			    
 			    else if (planeta == 5)
 			    {
 					peso_final = peso * g_Jupiter / g_Tierra;
-					document.write (" tu peso en <strong>Jupiter</strong> es de:<strong> " + peso_final + " Kg</strong>");
-					peso_final = (peso_final.toFixed(2));
+				        peso_final = Numeber(peso_final.toFixed(2));
+					document.write (" tu peso en <strong>Jupiter</strong> sería de:<strong> " + peso_final + " Kg</strong>");
+					
 					
 				}
 				
 				else if (planeta == 6)
                 {
                     peso_final = peso * g_Saturno / g_Tierra;
-                    document.write (" tu peso en <strong>Saturno</strong> es de:<strong> " + peso_final + " Kg</strong>");
-                    peso_final = (peso_final.toFixed(2));
+		    peso_final = Numeber(peso_final.toFixed(2));
+                    document.write (" tu peso en <strong>Saturno</strong> sería de:<strong> " + peso_final + " Kg</strong>");
+                    
 			    }
 			    
 			    else if (planeta == 7)
                 {
                     peso_final = peso * g_Urano / g_Tierra;
-                    document.write (" tu peso en <strong>Urano</strong> es de:<strong> " + peso_final + " Kg</strong>");
-                    peso_final = (peso_final.toFixed(2));
+		    peso_final = Numeber(peso_final.toFixed(2));
+                    document.write (" tu peso en <strong>Urano</strong> sería de:<strong> " + peso_final + " Kg</strong>");
+                    
 			    }
 			    
 			    else if (planeta == 8)
                 {
                     peso_final = peso * g_Neptuno / g_Tierra;
-                    document.write (" tu peso en <strong>Neptuno</strong> es de:<strong> " + peso_final + " Kg</strong>");
-                    peso_final = (peso_final.toFixed(2));
+	            peso_final = Numeber(peso_final.toFixed(2));
+                    document.write (" tu peso en <strong>Neptuno</strong> sería de:<strong> " + peso_final + " Kg</strong>");
+                    
 			    }
 			    
 			    else if (planeta == 9)
