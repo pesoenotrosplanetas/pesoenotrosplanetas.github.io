@@ -77,7 +77,7 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
 			    else if (planeta == 9)
                 {
                     peso_final = peso * g_Pluton / g_Tierra;
-                    document.write (" Pluton no es un planeta pero vive en la infancia de tu humilde servidor asi que me importa un carajo y tu peso en <strong>Pluton</strong> es de:<strong> " + peso_final + " Kg</strong>");
+                    document.write (" Pluton es un planetoide y tu peso en <strong>Pluton</strong> es de:<strong> " + peso_final + " Kg</strong>");
                     peso_final = (peso_final.toFixed(2));
 			    }
 				else 
