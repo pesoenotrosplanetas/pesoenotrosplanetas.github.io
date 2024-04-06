@@ -35,7 +35,7 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
 				else if (planeta == 3)
                 {
                     peso_final = peso * g_Luna / g_Tierra;
-                    peso_final = Numeber(peso_final.toFixed(2));
+                    peso_final = Number(peso_final.toFixed(2));
 		    document.write (" tu peso en la <strong>Luna</strong> sería de:<strong> " + peso_final + " Kg</strong>");
                     
 			    }
@@ -44,7 +44,7 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
                 else if (planeta == 4)
                 {
                     peso_final = peso * g_Marte / g_Tierra;
-		    peso_final = Numeber(peso_final.toFixed(2));
+		    peso_final = Number(peso_final.toFixed(2));
                     document.write (" tu peso en <strong>Marte</strong> sería de:<strong> " + peso_final + " Kg</strong>");
                     
 			    }
@@ -52,7 +52,7 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
 			    else if (planeta == 5)
 			    {
 					peso_final = peso * g_Jupiter / g_Tierra;
-				        peso_final = Numeber(peso_final.toFixed(2));
+				        peso_final = Number(peso_final.toFixed(2));
 					document.write (" tu peso en <strong>Jupiter</strong> sería de:<strong> " + peso_final + " Kg</strong>");
 					
 					
@@ -61,7 +61,7 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
 				else if (planeta == 6)
                 {
                     peso_final = peso * g_Saturno / g_Tierra;
-		    peso_final = Numeber(peso_final.toFixed(2));
+		    peso_final = Number(peso_final.toFixed(2));
                     document.write (" tu peso en <strong>Saturno</strong> sería de:<strong> " + peso_final + " Kg</strong>");
                     
 			    }
@@ -69,7 +69,7 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
 			    else if (planeta == 7)
                 {
                     peso_final = peso * g_Urano / g_Tierra;
-		    peso_final = Numeber(peso_final.toFixed(2));
+		    peso_final = Number(peso_final.toFixed(2));
                     document.write (" tu peso en <strong>Urano</strong> sería de:<strong> " + peso_final + " Kg</strong>");
                     
 			    }
@@ -77,7 +77,7 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
 			    else if (planeta == 8)
                 {
                     peso_final = peso * g_Neptuno / g_Tierra;
-	            peso_final = Numeber(peso_final.toFixed(2));
+	            peso_final = Number(peso_final.toFixed(2));
                     document.write (" tu peso en <strong>Neptuno</strong> sería de:<strong> " + peso_final + " Kg</strong>");
                     
 			    }
@@ -85,7 +85,7 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
 			    else if (planeta == 9)
                 {
                     peso_final = peso * g_Pluton / g_Tierra;
-                    document.write (" Pluton es un planetoide y tu peso en <strong>Pluton</strong> es de:<strong> " + peso_final + " Kg</strong>");
+                    document.write (" Pluton es un planetoide y tu peso en <strong>Pluton</strong> sería de:<strong> " + peso_final + " Kg</strong>");
                     peso_final = (peso_final.toFixed(2));
 			    }
 				else 
