@@ -20,7 +20,7 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
                 {
 					peso_final = peso * g_Mercurio /g_Tierra;
 		                        peso_final = Number(peso_final.toFixed(2));	
-					document.write (" Tu peso en <strong>Mercurio</strong> sería de:<strong> " + peso_final + "Kg</strong>");
+					document.write (" tu peso en <strong>Mercurio</strong> sería de:<strong> " + peso_final + "Kg</strong>");
 					
 				}
 				
