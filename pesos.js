@@ -82,5 +82,5 @@ var nombre = prompt("Como te llamas?"); //ventana preguntando tu nombre
 			    }
 				else 
 				{
-					document.write(" <strong>no me toques las pelotas xD!</strong>");
+					document.write(" <strong>UUPS, ocurrió un error. Introduce bien tus datos porfavor!</strong>");
 				} 
